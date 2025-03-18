@@ -1,50 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <title>TUGAS ALPRO 2</title>
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head> 
-<style>
-body {margin:0;}
-
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 33%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-</style>
-<body>
-
-<div class="icon-bar">
-  <a class="active" lang="div-1"><i class="fa fa-home"></i></a>  
-  <a href="index2.html"><i class="fa fa-envelope"></i></a>
-  <a href="index3.html"><i class="fa fa-search">TUGAS</i></a>
-</div>
-<div-1>
-    <h1 style="text-align: center;">UNIVERSITAS NAHDLATUL ULAMA AL GHAZALI</h1>
-    <h2 style="text-align: center; color: red;">Fakultas Matematika dan Ilmu Komputer</h2>
-	<h3 style="text-align: center; color: orange;">Jl. Kmerdekaan Barat No.17 Kesugihan Cilacap</h3>
-</div-1>
-
-</body>
-</html> 
+<head>
+   <title>HTML Frames</title>
+</head>
+<frameset rows="10%,80%,10%">
+   <frame name="top" src="/html/top_frame.htm" />
+   <frame name="main" src="/html/main_frame.htm" />
+   <frame name="bottom" src="/html/bottom_frame.htm" />
+   <noframes>
+      <body>
+         Your browser does not support frames.
+      </body>
+   </noframes>
+</frameset>
+</html>
